@@ -6,7 +6,7 @@ const app = express();
 
 // Middlewares
 app.use(express.json());
-app.use(cors({ origin: "https://url-shortenercdrp.netlify.app/" }));
+app.use(cors({ origin: "https://url-shortenercdrp.netlify.app" }));
 
 // CONEXIÓN MONGO
 mongoose
